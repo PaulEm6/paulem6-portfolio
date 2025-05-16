@@ -15,8 +15,8 @@ export const Home = () => {
                     </h1>
 
                     <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-                        I'm a software developer that is interested in machine learning, data science and web development. I enjoy developping cool projects
-                        that use innovative technology. My aim is to showcase my work with this interactive website. 
+                        I'm a software developer interested in machine learning, data science and web development. I enjoy developing cool projects
+                        that use innovative technologies. My aim is to showcase my work through this interactive website. 
                     </p>
 
                     <div className = "flex justify-center space-x-4">

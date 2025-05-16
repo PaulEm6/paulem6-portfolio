@@ -15,16 +15,16 @@ export const About = () => {
                     About Me
                 </h2>
 
-                <div className = "rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
+                <div className = "rounded-xl p-8 rounded-xl border border-white/10 hover:-translate-y-1 transition-all hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,30,246,0.2)] transition">
 
                     <p className = "text-gray-300 mb-6">
-                        Curious developer with professional experience in leveraging AI and software engineering to solve practical problems 
+                        Curious developer with professional experience in leveraging AI and software engineering to solve practical problems.
                     </p>
 
                     <div className = "grid grid-cols-1 md:grid-cols-2 gap-6">
 
                         {/* Machine Learning Card */}
-                        <div className = "rounded-xl p-6 hover:-translate-y-1 transition-all">
+                        <div className = "rounded-xl p-6">
                             <h3 className = "text-xl font-bold mb-4">
                                 Machine Learning
                             </h3>
@@ -41,7 +41,7 @@ export const About = () => {
                         </div>
 
                         {/* Software Development Card */}
-                        <div className = "rounded-xl p-6 hover:-translate-y-1 transition-all">
+                        <div className = "rounded-xl p-6">
                             <h3 className = "text-xl font-bold mb-4">
                                 Software Development
                             </h3>
@@ -66,40 +66,41 @@ export const About = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
                     
                     {/* Education */}
-                    <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition=alr">
-                    <h3 className = "text-xl font-bold mb-4">📝 Education </h3>
-                            
-                            <div className="mb-4">
-                                <div className="font-semibold"> MSc in Computer Science </div>
-                                <div className="font-normal text-sm text-gray-400"> Universite de Quebec a Chicoutimi - April 2025 </div>
-                            </div>
+                    <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 transition-all hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,30,246,0.2)] transition">
 
-                            <div className="mb-4">
-                                <div className="font-semibold">  MSc in Computer Engineering </div>
-                                <div className="font-normal text-sm text-gray-400"> Grenoble INP ESISAR - April 2025 </div>   
-                            </div>                         
+                        <h3 className = "text-xl font-bold mb-4">📝 Education </h3>
+                                
+                        {/* Education 1 */}
+                        <div className="mb-4">
+                            <div className="font-semibold"> MSc in Computer Science </div>
+                            <div className="font-normal text-sm text-gray-400"> Universite de Quebec a Chicoutimi - April 2025 </div>
+                        </div>
+                                
+                        {/* Education 2 */}
+                        <div className="mb-4">
+                            <div className="font-semibold"> MSc in Computer Engineering </div>
+                            <div className="font-normal text-sm text-gray-400"> Grenoble INP ESISAR - April 2025 </div>   
+                         </div>            
+                                     
                     </div>
                     
                     {/* Work Experience */}
-                    <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-                    <h3 className="text-xl font-bold mb-4">💼 Work Experience</h3>
+                    <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 transition-all hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,30,246,0.2)] transition">
+                        
+                        <h3 className="text-xl font-bold mb-4">💼 Work Experience</h3>
 
                         {/* Job 1 */}
                         <div className="mb-4">
-                            <h4 className="font-semibold">
-                            Intern AI Researcher at Hydro-Québec{" "}
-                            <span className="font-normal text-sm text-gray-400"> April 2024 – March 2025</span>
-                            </h4>
-                            <p>Developed an automated solution for classification of metadata.</p>
+                            <div className="font-semibold"> Intern AI Researcher at Hydro-Québec </div>
+                            <div className="font-normal text-sm text-gray-400"> April 2024 – March 2025 </div>
+                            <p>Developed an automated metadata classification solution using TensorFlow, Python, and Power BI.</p>
                         </div>
 
                         {/* Job 2 */}
-                        <div>
-                            <h4 className="font-semibold">
-                            Intern Software Developer at NSE{" "}
-                            <span className="font-normal text-sm text-gray-400"> January 2023 – June 2023</span>
-                            </h4>
-                            <p>Developed internal tools and participated in full-stack software development.</p>
+                        <div className="mb-4">
+                            <div className="font-semibold"> Intern Software Developer at NSE </div>
+                            <div className="font-normal text-sm text-gray-400"> January 2023 – June 2023 </div>
+                            <p>Developed a software tool to automate testing of industrial measurement instruments using the SCPI protocol, TestStand, and Python.</p>
                         </div>
                     
                     </div>

@@ -22,8 +22,8 @@ export const Projects = () => {
                             <h3 className="text-xl font-bold mb-2"> Classification of Tumors </h3>
 
                             <p className="text-gray-400 mb-4">
-                                Classification of MRI Images, in this project we determine whether an MRI of a brain contains a tumor or not.
-                                We use TensorFlow to train the machine learning models and data augmentation to improve results. 
+                                This project focuses on determining whether a brain MRI contains a tumor. 
+                                We use TensorFlow to train machine learning models and apply data augmentation to improve performance.
                             </p>
                             
                             <div className="flex flex-wrap gap-2 mb-4">
@@ -50,7 +50,7 @@ export const Projects = () => {
                             <h3 className="text-xl font-bold mb-2"> Movie Revenue Estimation </h3>
 
                             <p className="text-gray-400 mb-4">
-                                Creating a model used to estimate the revenue of a movie based on multiple features such as release date, production company, production country and the budget of the film. 
+                                Created a model to predict movie revenue based on features such as release date, production company, production country, and film budget.
                             </p>
                             
                             <div className="flex flex-wrap gap-2 mb-4">
@@ -77,7 +77,7 @@ export const Projects = () => {
                             <h3 className="text-xl font-bold mb-2"> Euro Data Exploration </h3>
 
                             <p className="text-gray-400 mb-4">
-                                In this project we analyze past european championships throughout history in order to find trends, patterns and interesting statistics about these championships.
+                                Analyzed historical data from past European Championships to uncover trends, patterns, and interesting statistics.
                             </p>
                             
                             <div className="flex flex-wrap gap-2 mb-4">
@@ -104,8 +104,7 @@ export const Projects = () => {
                             <h3 className="text-xl font-bold mb-2"> Sports Results Prediction </h3>
 
                             <p className="text-gray-400 mb-4">
-                            The objective of this project was to analyze various research papers on sports result prediction across team sports such as football, basketball, and volleyball, 
-                            and to apply the techniques proposed in these papers to predict outcomes.
+                            Reviewed research papers on sports result prediction in team sports such as football, basketball, and volleyball, and applied the proposed techniques to predict outcomes.
                             </p>
                             
                             <div className="flex flex-wrap gap-2 mb-4">
